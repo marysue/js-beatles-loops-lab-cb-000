@@ -58,11 +58,13 @@ function iLoveTheBeatles(n) {
     var i;
 
   //  i = n === 17  ? : 1 : n;
-    if (n === 17){
-      i = 1;
-    } else {
-      i = n + 1;
-    }
+  //  if (n === 17){
+//      i = 1;
+//    } else {
+//      i = n + 1;
+//    }
+
+    i = n === 17 ? 1 : n;
     var counter = 0;
 
     do {
